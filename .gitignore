@@ -1,0 +1,4 @@
+dist/
+node_modules/
+src/config.ts
+src/gmail-credentials.ts

@@ -1,0 +1,36 @@
+{
+  "name": "jordan-scrapes-craigslist",
+  "version": "1.0.0",
+  "description": "Using javascript to scrape craigslist.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarmora/jordan-scrapes-craigslist.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Web",
+    "Scraping"
+  ],
+  "author": "Jordan Hansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarmora/jordan-scrapes-craigslist/issues"
+  },
+  "homepage": "https://github.com/aarmora/jordan-scrapes-craigslist#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "nodemailer": "^5.1.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.10",
+    "@types/nodemailer": "^4.6.6",
+    "@types/request-promise": "^4.1.42"
+  }
+}
