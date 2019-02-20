@@ -4,7 +4,8 @@
   "description": "Using javascript to scrape craigslist.",
   "main": "./dist/index.js",
   "scripts": {
-    "start": "tsc && node ./dist/index.js"
+    "start": "tsc && node ./dist/index.js",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

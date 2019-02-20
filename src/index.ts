@@ -83,8 +83,8 @@ async function sendMail(categories: ICategory[]) {
 
 
     const mailOptions = {
-        from: 'jbhansen84@gmail.com',
-        to: 'jbhansen84@gmail.com',
+        from: credentials.email,
+        to: credentials.email,
         subject: 'Craigslist updater',
         html: html
     };
