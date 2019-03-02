@@ -12,7 +12,7 @@ You will need to go to craigslist and get the url(s) you are wanting to scrape a
 
 After that, you just need to run `npm start` and it'll scrape the categories and email the results to you.
 
-[Full Guide](https://javascriptwebscrapingguy.com/blog/jordan-scrapes-amazon-looking-for-products-to-sell/)
+[Full Guide](https://javascriptwebscrapingguy.com/jordan-scrapes-craigslist-and-then-automates-emailing-the-results-to-himself/)
 
 ### Prerequisites
 
