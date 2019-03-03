@@ -26,6 +26,10 @@ After installing [NodeJS](https://nodejs.org/en/) you should be able to just run
 npm i
 ```
 
+### Unit Testing
+
+`npm test`
+
 ## Built With
 
 * [Request-Promise](https://github.com/request/request-promise) - Promise based HTTP request library
