@@ -144,7 +144,7 @@ describe('scrapeCraigslist()', () => {
                 error = e;
             }
 
-            expect(error).to.equal(`Failure while getting category url ${categories[0].url}, RequestError: Error: Broken`);
+            expect(error).to.equal(`Failure while getting category url ${categories[0].url}, RequestError: Error: Brokenzz`);
 
         });
 
