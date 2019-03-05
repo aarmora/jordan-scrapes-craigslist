@@ -1,4 +1,7 @@
 import { scrapeCraigslist, sendMail } from "./scrape-craigslist";
+import * as dotenv from 'dotenv';
+
+dotenv.config();
 
 
 export interface ICategory {

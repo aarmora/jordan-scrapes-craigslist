@@ -1,7 +1,6 @@
 import * as requestPromise from 'request-promise';
 import * as cheerio from 'cheerio';
 import * as nodemailer from 'nodemailer';
-import { credentials } from './gmail-credentials';
 import { ICategory } from '.';
 
 export async function scrapeCraigslist(categories: ICategory[]) {
@@ -39,8 +38,8 @@ export async function sendMail(categories: ICategory[]) {
     let transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: credentials.email,
-            pass: credentials.password
+            user: process.env.email,
+            pass: process.env.password
         }
     });
     let html = `Here's some cars that may be of general interest <br><br>`;
@@ -57,8 +56,8 @@ export async function sendMail(categories: ICategory[]) {
 
 
     const mailOptions = {
-        from: credentials.email,
-        to: credentials.email,
+        from: process.env.email,
+        to: process.env.email,
         subject: 'Craigslist updater',
         html: html
     };
