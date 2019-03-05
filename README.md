@@ -1,4 +1,4 @@
-# Jordan Scrapes Craigslist
+# Jordan Scrapes Craigslist [![Build Status](https://travis-ci.org/aarmora/jordan-scrapes-craigslist.svg?branch=master)](https://travis-ci.org/aarmora/jordan-scrapes-craigslist)
 
 Searches Craigslist by url (with proper filters) and then sends an email.
 
