@@ -4,7 +4,7 @@
   "description": "Using javascript to scrape craigslist.",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "mochadasdsfa -r ts-node/register src/test/**/*.spec.ts --exit",
+    "test": "mocha -r ts-node/register src/test/**/*.spec.ts --exit",
     "start": "tsc && node ./dist/index.js",
     "build": "tsc"
   },

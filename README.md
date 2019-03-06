@@ -6,7 +6,7 @@ Searches Craigslist by url (with proper filters) and then sends an email.
 
 Clone the repository and run `npm i`. 
 
-You will need to rename `src/sample-gmail-credentials.ts` to `src/gmail-credentials.ts` and replace the username and email with correct ones.
+You will need to rename `.sample.env` to `.env` and replace the username and email with correct ones.
 
 You will need to go to craigslist and get the url(s) you are wanting to scrape and replace them in the `src/index.ts` file.
 
