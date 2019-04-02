@@ -28,7 +28,7 @@ describe('scrapeCraigslist()', () => {
 
             const categoriesResponse: any = await scrapeCraigslist(categories);
 
-            expect(categoriesResponse.length).to.equal(categories.length + 1);
+            expect(categoriesResponse.length).to.equal(categories.length);
         });
 
         it('should have a price of $8495 on the first car', async () => {
